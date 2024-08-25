@@ -5,7 +5,7 @@ import art
 import random
 import os
 
-#finite deck case
+#finite deck case = if a card is drawn that card would not show up again
 
 #implementing code for ease
 #100 = win
@@ -14,6 +14,7 @@ import os
 #103 = draw
 #104 = won as computer exceeds 21
 
+# Game details
 deck = ["ace", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "jack", "queen", "king"]
 valueDict = {
     "ace": 11,
